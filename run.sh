@@ -7,7 +7,7 @@
 
 #md /var/www/html
 #don't leave spaces around the equals
-mkdir /var/www/html/A
+#mkdir /var/www/html/A
 j="<a href="A/A.html">Open this!</a>"
 i="<html><title>Hello</title><body>Welcome to my page! \n $j</body></html>"
 echo $i > /var/www/html/index.html
